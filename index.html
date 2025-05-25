@@ -1,7 +1,57 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="UI/UX Designer Portfolio" />
+  <title>Your Name | UI/UX Designer</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" />
+</head>
+<body class="bg-white text-gray-900 font-sans">
+  <header class="p-6 bg-gray-100 shadow-md">
+    <div class="max-w-5xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Your Name</h1>
+      <nav>
+        <a href="#projects" class="mx-4 hover:text-blue-500">Projects</a>
+        <a href="#about" class="mx-4 hover:text-blue-500">About</a>
+        <a href="#contact" class="mx-4 hover:text-blue-500">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="max-w-5xl mx-auto mt-16 text-center px-4">
+    <h2 class="text-4xl font-bold mb-4">Hi, I'm Your Name</h2>
+    <p class="text-lg mb-6">A UI/UX Designer passionate about creating intuitive digital experiences.</p>
+    <a href="#projects" class="px-6 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700">View My Work</a>
+  </section>
+
+  <section id="projects" class="max-w-5xl mx-auto mt-20 px-4">
+    <h3 class="text-3xl font-bold mb-8 text-center">Featured Projects</h3>
+    <div class="grid gap-8 grid-cols-1 md:grid-cols-2">
+      <!-- Project 1 -->
+      <div class="border rounded-lg shadow p-4">
+        <img src="https://via.placeholder.com/600x400" alt="Project Screenshot" class="rounded mb-4" />
+        <h4 class="text-xl font-semibold mb-2">Project Title</h4>
+        <p class="text-gray-700 mb-2">Short description of the project and your role.</p>
+        <a href="#" class="text-blue-500 hover:underline">View Case Study →</a>
+      </div>
+      <!-- Add more projects as needed -->
+    </div>
+  </section>
+
+  <section id="about" class="max-w-5xl mx-auto mt-20 px-4 text-center">
+    <h3 class="text-3xl font-bold mb-4">About Me</h3>
+    <p class="text-gray-700 max-w-2xl mx-auto">A paragraph about your background, your approach to design, tools you use (Figma, Adobe XD, etc.), and what you're currently learning or working on.</p>
+  </section>
+
+  <section id="contact" class="max-w-5xl mx-auto mt-20 px-4 text-center">
+    <h3 class="text-3xl font-bold mb-4">Get In Touch</h3>
+    <p class="mb-4 text-gray-700">Feel free to reach out for opportunities, collaborations, or just to say hi!</p>
+    <a href="mailto:your.email@example.com" class="text-blue-600 hover:underline">your.email@example.com</a>
+  </section>
+
+  <footer class="mt-20 py-6 text-center bg-gray-100 text-gray-600">
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
 </body>
 </html>
